@@ -1,0 +1,38 @@
+{
+  "slug": "2026-10-18",
+  "title": "从回答问题，到完成工作",
+  "subtitle": "智能体走向长程任务，开放权重继续推进",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "published": "2026-10-19",
+  "summary": "Meta 与 Google 更新前沿模型，DeepSeek 优化编程智能体，Mistral 走向科学计算。多步任务能否做完、成本能否下降，是这些更新共同关注的问题。",
+  "tags": [
+    "智能体",
+    "开放权重",
+    "科学 AI"
+  ],
+  "highlights": [
+    {
+      "region": "美国",
+      "label": "US / FRONTIER MODELS",
+      "title": "模型开始承担长程任务",
+      "text": "Meta 发布开放权重模型；Google 展示多智能体协作。",
+      "anchor": "section-3"
+    },
+    {
+      "region": "中国",
+      "label": "CN / EFFICIENCY",
+      "title": "编程能力与成本一起比较",
+      "text": "DeepSeek 更新 V4.1 Flash 1017，技术出口规则也在调整。",
+      "anchor": "section-4"
+    },
+    {
+      "region": "欧洲",
+      "label": "EU / SCIENCE",
+      "title": "向专业预测与科研延伸",
+      "text": "Mistral 发布 Timestral，并与 CERN 合作研发物理模型。",
+      "anchor": "section-5"
+    }
+  ],
+  "source_page": "https://chatgpt.com/space/page_cefda2477e188191a25c5e2094b134cc"
+}
