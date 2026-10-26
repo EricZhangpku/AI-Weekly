@@ -44,6 +44,15 @@ def render_md(md):
             anchor = f'section-{len(toc)+1}'
             toc.append((anchor, title, level))
             result.append(f'<h{level} id="{anchor}" tabindex="-1">{inline(title)}</h{level}>')
+        elif re.fullmatch(r'!\[([^\]]+)\]\(([^)]+)\)(?:\n来源：(.+))?', block):
+            image = re.fullmatch(r'!\[([^\]]+)\]\(([^)]+)\)(?:\n来源：(.+))?', block)
+            alt, src, caption = image.groups()
+            parsed = urlparse(src)
+            target = (ROOT/'site/issues'/src).resolve()
+            if parsed.scheme or parsed.netloc or not target.is_relative_to(OUT.resolve()) or not target.is_file():
+                raise ValueError(f'Image must be a local site asset: {src}')
+            caption_html = f'<figcaption>{inline(caption)}</figcaption>' if caption else ''
+            result.append(f'<figure class="evidence-image"><img src="{esc(src)}" alt="{esc(alt)}" loading="lazy" decoding="async">{caption_html}</figure>')
         elif all(line.startswith('|') for line in lines):
             rows = [[x.strip() for x in line.strip('|').split('|')] for line in lines]
             if len(rows) < 2 or not all(re.fullmatch(r':?-+:?', x) for x in rows[1]):

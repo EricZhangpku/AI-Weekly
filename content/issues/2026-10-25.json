@@ -1,11 +1,11 @@
 {
   "slug": "2026-10-25",
-  "title": "模型之外，系统也在进化",
-  "subtitle": "推理栈、智能体编排与算力部署的新进展",
+  "title": "两款中国新模型，走向不同赛道",
+  "subtitle": "Kimi 冲击前沿综合能力，MiniMax 主打低成本代理；语音与推理系统同步升级",
   "start": "2026-10-19",
   "end": "2026-10-25",
   "published": "2026-10-26",
-  "summary": "DeepSeek 开源生产级推理框架，ARC Prize 测得 V4.1 Flash 1017 在 ARC-AGI-2 得分 78.1%；Meta、Google 与 SGLang 的工程更新显示，缓存、编排和部署正成为模型能力的一部分。",
+  "summary": "Kimi K3.1 Pro 在 Artificial Analysis 综合指数得 55 分，MiniMax M3.1 Flash 得 42 分且 API 输入价为每百万 token 0.15 美元；Anthropic、Mistral 与芯片云厂商也在扩展智能体和推理系统。",
   "tags": [
     "推理系统",
     "智能体",
@@ -15,22 +15,22 @@
     {
       "region": "美国",
       "label": "US / SYSTEMS",
-      "title": "从模型延伸到推理与部署",
-      "text": "OpenAI 扩大云分发，Meta 分享轻量编排架构，NVIDIA 推出开放模型与 AI 工厂方案。",
+      "title": "代理产品与芯片推理栈升级",
+      "text": "Claude Duet 探索个人工作代理，AWS 与 Google 为自研芯片提供 PyTorch 推理路径。",
       "anchor": "section-3"
     },
     {
       "region": "中国",
       "label": "CN / INFERENCE",
-      "title": "开源推理栈，评测能力上升",
-      "text": "DeepSeek 开源 DeepInfer；ARC Prize 报告 ARC-AGI-2 得分 78.1%。",
+      "title": "前沿分数与低价代理并列",
+      "text": "Kimi K3.1 Pro 独立指数 55；MiniMax M3.1 Flash 独立指数 42。",
       "anchor": "section-4"
     },
     {
       "region": "欧洲",
-      "label": "EU / INFRASTRUCTURE",
-      "title": "主权算力与产业部署",
-      "text": "NVIDIA 在柏林 GTC 介绍面向欧洲产业的开放模型组合与模块化 AI 工厂。",
+      "label": "EU / VOICE AGENTS",
+      "title": "语音模型接入实时工作流",
+      "text": "Mistral Voxtral 3 将语音识别、工具调用与合成整合进实时代理 SDK。",
       "anchor": "section-5"
     }
   ]

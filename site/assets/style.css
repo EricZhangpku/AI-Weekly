@@ -20,3 +20,4 @@ a{color:inherit;text-decoration:none}button,input,select{font:inherit}button,sel
 /* Persistent total, independent of archive search filters. */
 .journal-total{display:block;color:var(--text);font-size:14px}
 .journal-total strong{font-size:48px;line-height:1.2;font-weight:500;letter-spacing:-2px;color:var(--accent);margin-right:8px;font-variant-numeric:tabular-nums}
+.prose .evidence-image{margin:30px 0 38px;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}.prose .evidence-image img{display:block;width:100%;height:auto;border-radius:4px}.prose .evidence-image figcaption{margin:12px 4px 0;color:var(--muted);font-size:12px;line-height:1.7}

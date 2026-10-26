@@ -1,11 +1,11 @@
 {
   "slug": "2026-10-18",
   "title": "从回答问题，到完成工作",
-  "subtitle": "智能体走向长程任务，开放权重继续推进",
+  "subtitle": "预训练、长程强化学习与专业智能体同步演进",
   "start": "2026-10-12",
   "end": "2026-10-18",
   "published": "2026-10-19",
-  "summary": "Meta 与 Google 更新前沿模型，DeepSeek 优化编程智能体，Mistral 走向科学计算。多步任务能否做完、成本能否下降，是这些更新共同关注的问题。",
+  "summary": "微软披露 MAI-Base-2 的 2.8T 参数训练规模，腾讯开源 Hy-Memory 2.0；Grok Voice 3 在独立语音评测中取得 86.9 分。",
   "tags": [
     "智能体",
     "开放权重",
@@ -15,15 +15,15 @@
     {
       "region": "美国",
       "label": "US / FRONTIER MODELS",
-      "title": "模型开始承担长程任务",
-      "text": "Meta 发布开放权重模型；Google 展示多智能体协作。",
+      "title": "训练规模与代理能力扩展",
+      "text": "微软披露 2.8T MoE 基础模型训练数据，Grok Voice 3 获独立语音指数 86.9。",
       "anchor": "section-3"
     },
     {
       "region": "中国",
       "label": "CN / EFFICIENCY",
-      "title": "编程能力与成本一起比较",
-      "text": "DeepSeek 更新 V4.1 Flash 1017，技术出口规则也在调整。",
+      "title": "模型与长程训练系统并进",
+      "text": "腾讯开源覆盖聊天、工作与代码的三层记忆栈；DeepSeek 更新 Flash 模型。",
       "anchor": "section-4"
     },
     {
