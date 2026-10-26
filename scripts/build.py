@@ -129,7 +129,7 @@ def build():
         for highlight in item['highlights']:
             if highlight['anchor'] not in {x[0] for x in toc}:
                 raise ValueError(f'{f}: unknown highlight anchor')
-        item.update(prose=prose, toc=toc, search_text=md, words=len(re.findall(r'[\u4e00-\u9fff]|[A-Za-z]+', md)), source_count=len(set(re.findall(r'https?://[^\s)]+', md))))
+        item.update(prose=prose, toc=toc, search_text=' '.join(md.split()), words=len(re.findall(r'[\u4e00-\u9fff]|[A-Za-z]+', md)), source_count=len(set(re.findall(r'https?://[^\s)]+', md))))
         item['minutes'] = max(1, math.ceil(item['words']/400))
         issues.append(item)
     if not issues:
