@@ -5,11 +5,12 @@
   "start": "2026-10-12",
   "end": "2026-10-18",
   "published": "2026-10-19",
-  "summary": "微软披露 MAI-Base-2 的 2.8T 参数训练规模，腾讯开源 Hy-Memory 2.0；Grok Voice 3 在独立语音评测中取得 86.9 分。",
+  "summary": "STEMBench 六学科首轮共评 1,200 份回答，暂无模型完成完整研究目标；化学解释基准和直接预测 Hessian 的新架构也在本周出现。",
   "tags": [
     "智能体",
     "开放权重",
-    "科学 AI"
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
   ],
   "highlights": [
     {

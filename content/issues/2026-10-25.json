@@ -5,11 +5,12 @@
   "start": "2026-10-19",
   "end": "2026-10-25",
   "published": "2026-10-26",
-  "summary": "Kimi K3.1 Pro 在 Artificial Analysis 综合指数得 55 分，MiniMax M3.1 Flash 得 42 分且 API 输入价为每百万 token 0.15 美元；Anthropic、Mistral 与芯片云厂商也在扩展智能体和推理系统。",
+  "summary": "Kimi K3.1 Pro 在 Artificial Analysis 综合指数得 55 分，SciCode 得 60.8%、物理推理 CritPt 得 24.6%；AI4Science 会议聚焦基准与复现，METiS 与 Lilly 宣布最高 11 亿美元合作。",
   "tags": [
     "推理系统",
     "智能体",
-    "AI 基础设施"
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
   ],
   "highlights": [
     {
