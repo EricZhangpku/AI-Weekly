@@ -1,0 +1,38 @@
+{
+  "slug": "2026-11-01",
+  "title": "科学发现与模型评测，开始直面验证问题",
+  "subtitle": "Ling 3.1 Flash 1019 开放权重，OpenAI 公布数学、理论计算机科学与物理结果；长程代理、网络安全模型和科学评测同步推进",
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "published": "2026-11-02",
+  "summary": "本周的变化不只在模型分数：OpenAI 报告 Lean 形式化的 ETH 反例与量子场论结果并交由外部学者梳理；Anthropic 公布小鼠研究和蛋白结合实验；Ai2 实测发现，轻微改写评审提示即可让 GPT-5.4 的科研新颖性判断从 93.5% 降到 40.9%。产品侧，GPT-6.1 Terra 降低 API 价格，Gemini 4 Carbon 聚焦网络防御，Ling 3.1 Flash 1019 开放权重，DeepSeek 发布可响应 GitHub/飞书请求的研究原型。",
+  "tags": [
+    "基础模型",
+    "智能体",
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
+  ],
+  "highlights": [
+    {
+      "region": "美国",
+      "label": "US / RESEARCH & MODELS",
+      "title": "科研能力进入外部核验阶段",
+      "text": "OpenAI 公布 Lean 形式化理论结果；Anthropic 展示小鼠与蛋白结合实验；Ai2 提醒科研新颖性评测对提示措辞很敏感。",
+      "anchor": "section-3"
+    },
+    {
+      "region": "中国",
+      "label": "CN / OPEN WEIGHTS & AGENTS",
+      "title": "开权重、文档模型与主动代理并进",
+      "text": "Ling 3.1 Flash 1019 开放 MIT 权重，百度发布 Unlimited OCR 2，DeepSeek 将 dsh-superagent 作为研究原型开源。",
+      "anchor": "section-4"
+    },
+    {
+      "region": "欧洲",
+      "label": "EU / OPEN MODEL & EVALUATION",
+      "title": "Mistral 开放 Large 4，工程仿真基准启动",
+      "text": "Mistral Large 4 于 10 月 29 日开放权重；NAFEMS 与 Rescale 发起 AIPhysics.org，采用公开训练数据与盲测工程案例。",
+      "anchor": "section-5"
+    }
+  ]
+}
