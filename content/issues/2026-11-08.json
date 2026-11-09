@@ -1,0 +1,38 @@
+{
+  "slug": "2026-11-08",
+  "title": "权重开放与长程代理，评测开始追问高分从何而来",
+  "subtitle": "Kimi K3.1 Pro 权重开放，百度发布 ERNIE 5.5 Flash Base；OpenAI 推出 GPT-6 Cyber 与 BioBasicsBench，独立研究审视基准泛化和 AI 研发加速",
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "published": "2026-11-09",
+  "summary": "本周中国模型开放权重继续推进：Kimi K3.1 Pro 公布 2.8T MoE 权重，百度开放面向研究者继续训练的 ERNIE 5.5 Flash Base；二者结构、许可证与评测成绩各不相同。OpenAI 发布 GPT-6 Cyber，并与 Ligo 推出 100 项湿实验数据基准 BioBasicsBench。R40 对 Kimi 的 Terminal-Bench 行为提出隐藏规则记忆疑虑，但证据不足以认定训练污染；METR 则估计 Anthropic 模型基准能力进步速度约为历史的 1.9 倍，且明确列出置信区间与删节限制。Mistral 将可恢复长程代理纳入 Studio 公开预览。",
+  "tags": [
+    "基础模型",
+    "智能体",
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
+  ],
+  "highlights": [
+    {
+      "region": "美国",
+      "label": "US / CYBER & RESEARCH",
+      "title": "网络安全能力与 AI 研发加速进入实测",
+      "text": "GPT-6 Cyber 将漏洞利用与范围遵循一起评测；METR 估计 Anthropic 的模型基准进步速度约为历史的 1.9 倍，但关键证据大量删节。",
+      "anchor": "section-3"
+    },
+    {
+      "region": "中国",
+      "label": "CN / OPEN WEIGHTS & EVALUATION",
+      "title": "Kimi 与百度开放两类不同的 MoE 权重",
+      "text": "Kimi K3.1 Pro 开放后训练代理模型权重；ERNIE 5.5 Flash Base 开放预训练完成的基座。Kimi 同期评测审计也提出尚未证实的隐藏规则记忆风险。",
+      "anchor": "section-4"
+    },
+    {
+      "region": "欧洲",
+      "label": "EU / AGENT RUNTIME",
+      "title": "Mistral 将持久代理运行时纳入企业平台",
+      "text": "Mistral Studio 的公开预览支持后台长任务、断点恢复、人工审批和多种部署方式，实际长任务效果仍需外部评测。",
+      "anchor": "section-5"
+    }
+  ]
+}
