@@ -1,0 +1,38 @@
+{
+  "slug": "2026-11-15",
+  "title": "前沿能力分层，科学评测转向过程与证据",
+  "subtitle": "Fable 5.2、Gemini 4 Hydrogen 与 Muse Ember 分别押注能力上限和低成本执行；Mistral 开放 Large 4 权重，EUROPA 展示公共超算训练近万亿参数 MoE，AI4S 基准开始测材料与化学推理过程",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "published": "2026-11-16",
+  "summary": "本周美国头部厂商发布 Claude Fable 5.2 / Mythos 5.2、Gemini 4 Hydrogen 和 Meta Muse Ember，模型产品进一步按推理能力、访问风险与任务成本分层；DeepMind 用多代理形式化验证 Signal 实现的关键性质，OpenAI 则推出需逐笔确认的 ChatGPT Wallet。中国方面，阿里开放 Qwen4-Max-Preview，DeepSeek 把搜索、文件与语音等 App 能力接入 API。欧洲的 Mistral Large 4 开放改进版权重，EUROPA 在 JUPITER 上将 951.9B MoE 配置吞吐提升至约 1,300 token/s/GPU。AI4S 新进展包括 ChemInsight、MatScope、Chem World 基准和 AI-Newton 物理定律发现论文，评测重心由单题得分转向多步推理、条件变化与证据更新。",
+  "tags": [
+    "基础模型",
+    "智能体",
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
+  ],
+  "highlights": [
+    {
+      "region": "美国",
+      "label": "US / MODELS & AGENTS",
+      "title": "前沿模型分层，代理开始进入支付与代码验证",
+      "text": "Anthropic、Google、Meta 分别推出旗舰与低成本执行模型；DeepMind 以 Lean 证明验证 Signal 关键性质，OpenAI 钱包把代理带入受逐笔授权约束的交易场景。",
+      "anchor": "section-3"
+    },
+    {
+      "region": "中国",
+      "label": "CN / API & PREVIEW",
+      "title": "Qwen 开放多模态预览，DeepSeek 扩展 API 工具",
+      "text": "Qwen4-Max-Preview 提供百万上下文与图像、视频理解；DeepSeek 把 App 的搜索、文件和语音能力接到 API。",
+      "anchor": "section-4"
+    },
+    {
+      "region": "欧洲",
+      "label": "EU / OPEN WEIGHTS & COMPUTE",
+      "title": "Mistral 开放 Large 4，EUROPA 跑通近万亿 MoE 配置",
+      "text": "Mistral 报告强化学习后的编码与安全分数；EUROPA 在共享公共超算上展示 951.9B MoE 训练吞吐达到约 1,300 token/s/GPU。",
+      "anchor": "section-5"
+    }
+  ]
+}
