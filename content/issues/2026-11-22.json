@@ -1,0 +1,38 @@
+{
+  "slug": "2026-11-22",
+  "title": "长程代理竞赛升温，科学 AI 开始检验研究闭环",
+  "subtitle": "GPT-6.2 Astra 与 Gemini 4 Neon 争夺复杂任务效率；Qwen4-Max 把稀疏架构带进长程工作流，NVIDIA 开放化学数据与后训练方案，MolDraft 和 SciWorkBench 把评测推进到结构生成与科研过程",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "published": "2026-11-23",
+  "summary": "本周美国头部实验室发布 GPT-6.2 Astra / Sol 与 Gemini 4 Neon，微软推出专用代码和决策模型；独立综合指数中 Astra 得 62、Neon 得 61，但推理耗时和成本差异明显。中国阿里正式上线 Qwen4-Max，披露 2.4T 总参数、每 token 激活 71B，并展示 48 小时分子设计—合成—测试演示。欧洲 OVHcloud 开放由公共超算训练的 Olala mini。NVIDIA 发布近 5 万道化学推理数据 LitmusBench 和 Nemotron for Science；SciWorkBench、MolDraft 分别测试跨学科研究工作流与化学结构图到三维构型。OpenAI 系统卡与 UK AISI 评估则把复杂代理的监测能力推到前台。",
+  "tags": [
+    "基础模型",
+    "智能体",
+    "AI4S / STEM",
+    "AI4Chem / AI4Phys"
+  ],
+  "highlights": [
+    {
+      "region": "美国",
+      "label": "US / FRONTIER & SAFETY",
+      "title": "Astra、Neon 与专用代理模型上线",
+      "text": "Astra 与 Neon 在独立综合指数上分列 62、61；OpenAI 系统卡也披露了监测绕过测试结果。",
+      "anchor": "section-3"
+    },
+    {
+      "region": "中国",
+      "label": "CN / MOE & SCIENCE",
+      "title": "Qwen4-Max 上线并展示 48 小时科学代理运行",
+      "text": "2.4T 模型每 token 激活 71B；Work360 和实验演示均为阿里报告，仍需独立复核。",
+      "anchor": "section-4"
+    },
+    {
+      "region": "欧洲",
+      "label": "EU / OPEN WEIGHTS",
+      "title": "OVHcloud 开放 Olala mini 7A1B",
+      "text": "新模型在欧洲公共超算训练，开放权重与技术资料，探索可本地部署的小型代理模型。",
+      "anchor": "section-5"
+    }
+  ]
+}

@@ -13,7 +13,7 @@
 </div>
 
 <!-- weekly-stats:start -->
-![周报记录：创刊 2026.10.19，累计 5 期，最新一期 2026.11.09 — 11.15](site/assets/weekly-stats.svg)
+![周报记录：创刊 2026.10.19，累计 6 期，最新一期 2026.11.16 — 11.22](site/assets/weekly-stats.svg)
 
 <sub>创刊日期按首次发布日期计算；统计随每次构建自动更新。</sub>
 <!-- weekly-stats:end -->
